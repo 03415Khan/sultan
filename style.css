@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #2f4854, #314f5b, #325563, #335c6a, #346371, #356977, #36707c, #377681, #397d86, #3c848a, #408c8e, #449392);
+}
+
+.container h1 {
+    color: white;
+    font-family: "Courgette", cursive;
+    font-size: 54px;
+}
+
+.container p {
+    color: rgb(204, 204, 204);   
+    font-size: 18px;
+}
+
+.container .sub-heading {
+    margin-top: 2px;
+}
