@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.container {
+.header-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,17 +12,45 @@
     background-image: linear-gradient(to right bottom, #2f4854, #314f5b, #325563, #335c6a, #346371, #356977, #36707c, #377681, #397d86, #3c848a, #408c8e, #449392);
 }
 
-.container h1 {
+.header-container h1 {
     color: white;
     font-family: "Courgette", cursive;
     font-size: 54px;
 }
 
-.container p {
-    color: rgb(204, 204, 204);   
+.header-container p {
+    color: rgb(204, 204, 204);
     font-size: 18px;
 }
 
-.container .sub-heading {
+.header-container .sub-heading {
     margin-top: 2px;
+}
+
+.about-container {
+    display: flex;
+    padding: 20px 16px;
+}
+
+.about-container .column {
+    flex-basis: 50%;
+}
+
+.about-container .right-column {
+    text-align: center;
+}
+
+.about-container img {
+    height: 400px;
+}
+
+
+
+.column h2{
+    margin-bottom: 5px;
+}
+.column p{
+    font-family: "Sedan SC", serif;
+    font-size: 23px;
+    margin-top: 12%;
 }
